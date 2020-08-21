@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/sky">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/text_view"
+        android:textSize="35sp"
+        android:background="@android:color/holo_orange_light"
+        android:elevation="10sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/text_view"
+        android:id="@+id/speak_button"
+        android:text="Click to speak"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:elevation="5dp"
+        android:padding="10sp"
+        android:background="@drawable/custom_btn_shap"/>
+
+</RelativeLayout>
